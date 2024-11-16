@@ -1,0 +1,151 @@
+.header{
+  width: 100vw;
+  padding: 10px;
+  padding-left: 17px;
+  padding-top: 15px;
+}
+.add-items{
+  padding: 10px;
+  width: 100vw;
+}
+h1{
+  font-size: 38px;
+}
+.inputs{
+  display: flex;
+/* border: solid black; */
+
+}
+.add-items h2{
+  margin-left: 10px;
+}
+.inputs input{
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 42px;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  border:  solid grey 0.1px;
+}
+
+.tasks{
+  width: 50vw;
+  margin-left: 16px;
+  /* border: solid black; */
+}
+@media screen and (max-width:600px) {
+  .add-items{
+    display: flex;
+  flex-direction: column;
+  /* border: solid black; */
+  }
+  .inputs{
+    flex-direction: column;
+  }
+  .inputs input{
+    margin-bottom: 10px;
+  }
+  .submit-btn{
+   width: 97%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 4px;
+  }
+  .single-task{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width:580px) {
+  .main-h1{
+    font-size: 26px;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  .tasks{
+    width: 100vw;
+    margin-left: 0px;
+    /* border: solid black; */
+  }
+  .tasks h2{
+    margin-left: 15px;
+  }
+}
+
+.single-title-des h4{
+font-size: 18px;
+font-weight: bold;
+}
+.single-task{
+  display: flex;
+  background-color: rgb(61, 214, 235);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-right: 13px;
+  padding-left: 11px;
+  justify-content: space-between;
+}
+.single-btns{
+  display: flex;
+  /* border: solid black; */
+}
+.single-btns button{
+
+  height: 44px;
+  margin: 5px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.single-title-des{
+  padding: 10px;
+  padding-bottom: 0px;
+
+  /* border: solid black; */
+}
+.single-title-des p{
+  font-weight: 400;
+  word-break: break-word;
+    /* white-space: normal; */
+
+}
+.single-title-des div{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: solid; */
+  width: auto;
+
+}
+.update-inputs{
+ height: 40px;
+ margin-top: auto;
+ margin-bottom: auto;
+ display: flex;
+ margin: 10px;
+ margin-left: 0%;
+min-width: 3px;
+ /* border: solid black; */
+}
+.update-input{
+  outline: none;
+  border: solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-right: 5px;
+  min-width: 5px;
+}
+
+.single-task{
+  /* flex-direction: column; */
+  padding-bottom: 10px;
+  flex: 1;
+}
+
+
+
+.hide{
+  display: none;
+}
